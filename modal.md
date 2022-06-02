@@ -15,8 +15,8 @@ const ModalContainer = styled.div`
   display: flex;
   flex-wrap: nowrap;
   height: 100%;
-  left: 0;
   justify-content: center;
+  left: 0;
   position: fixed;
   top: 0;
   width: 100%;
