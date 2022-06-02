@@ -11,8 +11,9 @@ import styled from 'styled-components';
 const Input = styled.input`
   border: 1px solid #d6d6d6;
   display: block;
-  margin-bottom: 20px;
+  max-width: 100%;
   padding: 10px 15px;
+  width: ${(props) => props.width};
 `;
 
 export default Input;
