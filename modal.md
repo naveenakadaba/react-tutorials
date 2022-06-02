@@ -39,3 +39,22 @@ const ModalContent = styled.div`
 
 export default ModalContent;
 ```
+
+3. Create Modal Component
+```javascript
+import ModalContainer from './ModalContainer';
+import ModalContent from './ModalContent';
+
+const Modal = () => {
+  return (
+    <ModalContainer>
+      <ModalContent>
+        <h3>Modal Heading</h3>
+        <p>Model Description</p>
+      </ModalContent>
+    </ModalContainer>
+  );
+};
+
+export default Modal;
+```
