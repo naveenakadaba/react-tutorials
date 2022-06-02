@@ -7,8 +7,9 @@ Learn how to create a Modal using Styled Components
 ```javascript
 import styled from 'styled-components';
 
-const ModalDialog = styled.div`
+const ModalContainer = styled.div`
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-wrap: nowrap;
   height: 100%;
@@ -17,10 +18,10 @@ const ModalDialog = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1002;
+  z-index: 1000;
 `;
 
-export default ModalDialog;
+export default ModalContainer;
 ```
 
 2. Ceate Modal Content Component
