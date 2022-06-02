@@ -30,7 +30,7 @@ export default ModalContainer;
 import styled from 'styled-components';
 
 const ModalContent = styled.div`
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
   margin: auto;
   max-width: 100%;
   padding: 20px 15px;
