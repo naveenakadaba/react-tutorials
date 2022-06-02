@@ -43,21 +43,19 @@ export default ModalContent;
 ```
 
 3. Create Modal Component
+
 ```javascript
 import { Fragment } from 'react';
 import { createPortal } from 'react-dom';
 import ModalContainer from './container';
 import ModalContent from './content';
 
-const Modal = ({ width }) => {
+const Modal = ({ children, width }) => {
   return (
     <Fragment>
       {createPortal(
         <ModalContainer>
-          <ModalContent width={width}>
-            <h3>Modal Heading</h3>
-            <p>Model Description</p>
-          </ModalContent>
+          <ModalContent width={width}>{children}</ModalContent>
         </ModalContainer>,
         document.getElementById('root')
       )}
