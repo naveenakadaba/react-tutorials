@@ -42,13 +42,13 @@ export default ModalContent;
 
 3. Create Modal Component
 ```javascript
-import ModalContainer from './ModalContainer';
-import ModalContent from './ModalContent';
+import ModalContainer from './container';
+import ModalContent from './content';
 
-const Modal = () => {
+const Modal = ({ width }) => {
   return (
     <ModalContainer>
-      <ModalContent>
+      <ModalContent width={width}>
         <h3>Modal Heading</h3>
         <p>Model Description</p>
       </ModalContent>
