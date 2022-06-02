@@ -50,7 +50,7 @@ const Modal = ({ width }) => {
     <ModalContainer>
       <ModalContent width={width}>
         <h3>Modal Heading</h3>
-        <p>Model Description</p>
+        <p>Modal Description</p>
       </ModalContent>
     </ModalContainer>
   );
