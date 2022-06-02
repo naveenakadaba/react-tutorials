@@ -11,7 +11,7 @@ import styled from 'styled-components';
 const Input = styled.input`
   appearance: none;
   background-color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(240, 240, 240, 1);
+  border: 1px solid rgba(210, 210, 210, 1);
   cursor: text;
   display: block;
   max-width: 100%;
