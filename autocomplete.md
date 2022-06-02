@@ -3,7 +3,7 @@
 
 Learn how to create a Autocomplete using Styled Components
 
-1. Create a input component
+1. Create Input Component
 
 ```javascript
 import styled from 'styled-components';
