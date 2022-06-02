@@ -2,7 +2,7 @@
 
 Learn how to create a Modal using Styled Components
 
-<a href="https://codesandbox.io/s/modal-bcckh4" title="CodeSandbox Link" target="_blank">CodeSandbox Link</a>
+<a href="https://codesandbox.io/s/modal-bcckh4" title="CodeSandbox Link">CodeSandbox Link</a>
 
 1. Create Modal Container Component
 
