@@ -58,8 +58,7 @@ const Modal = ({ width }) => {
           </ModalContent>
         </ModalContainer>,
         document.getElementById('root')
-      )}
-      ;
+      )};
     </Fragment>
   );
 };
