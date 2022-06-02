@@ -2,7 +2,7 @@
 
 Learn how to create a Modal using Styled Components
 
-1. Ceate Modal Container Component
+1. Create Modal Container Component
 
 ```javascript
 import styled from 'styled-components';
@@ -24,7 +24,7 @@ const ModalContainer = styled.div`
 export default ModalContainer;
 ```
 
-2. Ceate Modal Content Component
+2. Create Modal Content Component
 
 ```javascript
 import styled from 'styled-components';
