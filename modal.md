@@ -4,7 +4,7 @@ Learn how to create a Modal using Styled Components
 
 1. Ceate a Modal Dialog Component.
 
-`
+```
 import styled from 'styled-components';
 
 const ModalDialog = styled.div`
@@ -21,4 +21,4 @@ const ModalDialog = styled.div`
 `;
 
 export default ModalDialog;
-`
+```
