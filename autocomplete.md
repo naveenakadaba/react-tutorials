@@ -9,7 +9,10 @@ Learn how to create a Autocomplete using Styled Components
 import styled from 'styled-components';
 
 const Input = styled.input`
-  border: 1px solid #d6d6d6;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  cursor: text;
   display: block;
   max-width: 100%;
   padding: 10px 15px;
